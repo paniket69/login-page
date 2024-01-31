@@ -7,27 +7,41 @@
 
 body{
     background-image: url(https://images.unsplash.com/photo-1432821596592-e2c18b78144f?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    overflow: scroll;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
 }
 
 header{
-    margin: 100;
     padding: 0;
     background-color: transparent;
     display: flex;
     backdrop-filter: blur(5px);
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 70px;
 }
 #logo{
     width: 80px;
     padding: 15px 15px;
     color: aliceblue;
     position: relative;
-    left: 50px;
+}
+
+
+button{
+    padding: 5px 20px;
+    border-radius: 25px;
+    border: 0;
+    background-color:rgb(36, 97, 74);
 }
 
 div{
     padding: 15px 5px;
     position: relative;
-    left: 400px;
+    /* left: 400px; */
 }
 
 div .fh{
@@ -42,31 +56,42 @@ div .fh{
 
 }
 
-button{
-    color: black;
-    align-items: end;
-    position: relative;
-    left: 850px;
-    box-sizing: content-box;
-    width: 70px;
-    height: fit-content;
-    display: inline-block;
-    margin-top: 15px;
-    margin-left: 20px;
-    border-radius: 10%;
-}
-
 main{
     position: relative;
-    height: 50px;
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 0 50px;
+    gap: 50px;
 }
 
-#md{
+main > * {
+    flex: 1;
+}
+
+.myDetails {
     font-family: 'Times New Roman', Times, serif;
-    position: absolute;
-    margin-bottom: 80px;
-    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 250px;
+}
+
+.pic-container{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.myPic {
+    background-image: url("profilePic.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+    border-radius: 20px;
 }
 
 #name{
