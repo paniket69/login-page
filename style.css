@@ -24,10 +24,12 @@ header{
     padding: 0 70px;
 }
 #logo{
-    width: 80px;
+    font-width: 80px;
     padding: 15px 15px;
-    color: aliceblue;
+    color: rgb(214, 172, 31);
     position: relative;
+    font-family: cursive;
+    font-size: large;
 }
 
 
@@ -86,13 +88,14 @@ main > * {
 }
 
 .myPic {
-    background-image: url("profilePic.jpg");
+    background-image: url("apatel.png");
     background-size: cover;
     background-position: center;
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
     overflow: hidden;
-    border-radius: 20px;
+    border-radius: 100px;
+    margin-top: 100px;
 }
 
 #name{
