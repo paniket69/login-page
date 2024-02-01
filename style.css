@@ -116,17 +116,15 @@ footer{
 
 /* This is for login page  */
 
-button {}
-    width: 100%;
+button {
+    width: auto;
     color: white;
-    padding: 15px;
-    margin: 10px 0px;
-    border: none;
     cursor: pointer;
 }
 
 form{
     border: 2px solid #f1f1f1;
+    margin: 0px 550px 0px 550px;
 }
 
 input[type=text],input[type=password]{
@@ -149,6 +147,4 @@ button:hover{
 
 .container{
     padding: 25px;
-    align-items: center;
-    text-align: center;
 }
