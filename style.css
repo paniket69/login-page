@@ -72,6 +72,7 @@ main > * {
 
 .myDetails {
     font-family: 'Times New Roman', Times, serif;
+    font-size: 2ch;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -95,17 +96,17 @@ main > * {
 }
 
 #name{
-    font-size: xx-large;
+    font-size: 6ch;
     color: rgb(36, 97, 74);
     font-family: cursive;
     font-weight: 600;
 }
 
 footer{ 
-    text-decoration: wavy;
     height: 10vh;
     color: aliceblue;
     background-color: rgb(36, 97, 74);
+    align-items: center;
     text-align: center;
     margin-top: 250px;
 }
