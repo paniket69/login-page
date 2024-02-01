@@ -126,9 +126,7 @@ button {}
 }
 
 form{
-    border: 3px solid #f1f1f1;
-    align-items: center;
-    text-align: center;
+    border: 2px solid #f1f1f1;
 }
 
 input[type=text],input[type=password]{
@@ -138,6 +136,7 @@ input[type=text],input[type=password]{
     display: inline-block;
     border: 2px solid green;
     box-sizing: border-box;
+
 }
 
 button:hover{
@@ -146,8 +145,6 @@ button:hover{
 
 .cancelbtn{
     width: auto;
-    padding: 15px;
-    margin: 10px 0px;
 }
 
 .container{
