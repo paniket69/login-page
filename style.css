@@ -35,7 +35,7 @@ button{
     padding: 5px 20px;
     border-radius: 25px;
     border: 0;
-    background-color:rgb(36, 97, 74);
+    background-color: rgb(214, 172, 31);
 }
 
 div{
@@ -97,7 +97,7 @@ main > * {
 
 #name{
     font-size: 6ch;
-    color: rgb(36, 97, 74);
+    color: rgb(214, 172, 31);
     font-family: cursive;
     font-weight: 600;
 }
@@ -105,7 +105,7 @@ main > * {
 footer{ 
     height: 10vh;
     color: aliceblue;
-    background-color: rgb(36, 97, 74);
+    background-color: black;
     align-items: center;
     text-align: center;
     margin-top: 250px;
